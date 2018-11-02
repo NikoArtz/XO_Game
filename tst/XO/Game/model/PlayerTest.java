@@ -7,7 +7,7 @@ import static org.testng.Assert.assertEquals;
 public class PlayerTest {
 
     @Test
-    public void getName() {
+    public void getName() throws Exception {
         final String inputValue = "Nikita";
         final String expectedValue = inputValue;
         final Player player = new Player(inputValue, null);
@@ -18,7 +18,7 @@ public class PlayerTest {
 
 
     @Test
-    public void getFigure() {
+    public void getFigure() throws Exception{
         final Figure inputValue1 = Figure.X;
         final Figure expectedValue1 = inputValue1;
         final Player player = new Player(null, expectedValue1);
