@@ -14,4 +14,5 @@ return field[point.x][point.y];
     public void setFigure(final Point point,final Figure figure){
 field[point.x][point.y] = figure;
     }
+//   /private void check
 }
